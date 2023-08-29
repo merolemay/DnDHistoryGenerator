@@ -1,6 +1,6 @@
 # D&D History Generator
 
-![Project Logo](https://viterbi-web.usc.edu/~mkperlmu/itp104/assignment_05/interests_page_gallery_layout.html)
+![Project Logo](https://logos-world.net/wp-content/uploads/2021/12/DnD-Logo.png)
 
 This project aims to develop an interactive story generator using Python and Pyformlang. The project will leverage regular expressions, automata, finite state transducers, and context-free grammars to facilitate user interaction and generate various aspects of the story.
 
