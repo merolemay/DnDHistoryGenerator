@@ -2,7 +2,8 @@
 
 ![Project Logo](https://logos-world.net/wp-content/uploads/2021/12/DnD-Logo.png)
 
-This project aims to develop an interactive story generator using Python and Pyformlang. The project will leverage regular expressions, automata, finite state transducers, and context-free grammars to facilitate user interaction and generate various aspects of the story.
+
+This project aims to develop an interactive story generator for Dungeons & Dragons adventures using Python and Pyformlang. The project will leverage regular expressions, automata, finite state transducers, and context-free grammars to facilitate user interaction and generate various aspects of the D&D story.
 
 ## Table of Contents
 
@@ -15,35 +16,34 @@ This project aims to develop an interactive story generator using Python and Pyf
 
 ## Introduction
 
-The Interactive Story Generator project focuses on providing users with a platform to create and explore dynamic narratives through decision-making and choices that directly influence the progression of the plot. By utilizing a combination of regular expressions, automata, finite state transducers, and context-free grammars, this project aims to make story generation a captivating and interactive experience.
+The Interactive Dungeons & Dragons Story Generator project focuses on providing players with a platform to create and explore dynamic D&D narratives through decision-making and choices that directly influence the progression of the adventure. By utilizing a combination of regular expressions, automata, finite state transducers, and context-free grammars, this project aims to make D&D story generation an immersive and interactive experience.
 
 ## Features
 
-- **User Interaction:** Users can actively participate in crafting the story by making decisions and choices at key points.
-- **Dynamic Plot Development:** The generated stories will adapt and evolve based on user decisions, resulting in a diverse range of story outcomes.
-- **Utilization of Formal Languages:** The project employs formal language techniques like regular expressions, automata, and grammars to structure the interactive elements of the stories.
-- **Exploration:** Users can explore different storylines and discover the consequences of their choices.
-- **Extensibility:** The architecture of the generator allows for easy integration of new story elements, making the project open to expansion.
+- **Player Interaction:** Players can actively participate in crafting the D&D adventure by making decisions and choices at critical points.
+- **Evolving Quest:** The generated stories will adapt and evolve based on player decisions, leading to a diverse range of quest outcomes.
+- **Utilization of Narrative Elements:** The project employs narrative techniques inspired by D&D lore, incorporating elements such as character interactions, quests, and encounters.
+- **Exploration:** Players can explore different paths within the adventure and experience the consequences of their choices.
 
 ## Installation
 
-To set up the Interactive Story Generator on your local machine, follow these steps:
+To set up the Interactive Dungeons & Dragons Story Generator on your local machine, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your_username/interactive-story-generator.git`
-2. Navigate to the project directory: `cd interactive-story-generator`
+1. Clone the repository: `git clone https://github.com/your_username/dnd-story-generator.git`
+2. Navigate to the project directory: `cd dnd-story-generator`
 3. Install the required dependencies: `pip install pyformlang`
 
 ## Usage
 
 1. Run the main script: `python main.py`
-2. Follow the on-screen prompts to make choices and decisions that shape the story.
-3. Enjoy the evolving narrative that responds to your choices.
+2. Immerse yourself in the interactive D&D adventure by making choices that shape the journey of your characters.
+3. Enjoy the unfolding narrative that responds to your decisions.
 
 ## Contributions
 
-Contributions to the Interactive Story Generator project are welcome! If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request in the [GitHub repository](https://github.com/your_username/interactive-story-generator).
+Contributions to the Interactive Dungeons & Dragons Story Generator project are highly appreciated! If you encounter any issues or have ideas for enhancements, feel free to open an issue or submit a pull request in the [GitHub repository](https://github.com/your_username/dnd-story-generator).
 
-Before making significant changes, make sure to discuss them with the maintainers through the issue tracker.
+Prior to making substantial changes, please discuss them with the maintainers through the issue tracker.
 
 ## License
 
