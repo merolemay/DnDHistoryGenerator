@@ -29,7 +29,7 @@ The Interactive Dungeons & Dragons Story Generator project focuses on providing 
 
 To set up the Interactive Dungeons & Dragons Story Generator on your local machine, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your_username/dnd-story-generator.git`
+1. Clone the repository: `git clone https://github.com/merolemay/dnd-story-generator.git`
 2. Navigate to the project directory: `cd dnd-story-generator`
 3. Install the required dependencies: `pip install pyformlang`
 
