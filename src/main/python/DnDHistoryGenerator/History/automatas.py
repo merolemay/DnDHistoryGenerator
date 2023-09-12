@@ -1,7 +1,25 @@
-class Automatas:
-    def __init__(self):
-        self.estado_actual = 0
+from pyformlang.finite_automaton import DeterministicFiniteAutomaton
+from pyformlang.regular_expression import Regex
 
-    def avanzar(self, eleccion):
-        # Lógica para avanzar en la historia basada en la elección del usuario
+
+class RegrexAutomataName:
+
+    regrex = Regex("^[A-Za-z][A-Za-z0-9 ]*$")
+
+    automaton = regrex.to_epsilon_nfa().to_deterministic().minimize()
+
+    def __init__(self):
         pass
+
+    def avanzar(self, eleccion):   
+        if self.automaton.accepts(eleccion):
+            return True
+        else:
+            return False
+
+
+
+    def generar_automata(self, eleccion):
+        pass
+
+
