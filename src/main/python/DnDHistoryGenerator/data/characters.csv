@@ -1,81 +1,93 @@
-name,race
-Alden,Humano
-Elira,Humano
-Kael,Humano
-Mara,Humano
-Rowan,Humano
-Elena,Humano
-Lucian,Humano
-Cyra,Humano
-Adara,Humano
-Finnian,Humano
-Arinor,Elfo
-Lorien,Elfo
-Althaea,Elfo
-Eldrin,Elfo
-Finrod,Elfo
-Galadriel,Elfo
-Thranduil,Elfo
-Lirael,Elfo
-Enaliel,Elfo
-Eolande,Elfo
-Thrain,Enano
-Thora,Enano
-Belrun,Enano
-Thraina,Enano
-Farlaghn,Enano
-Ulfar,Enano
-Borin,Enano
-Thrainor,Enano
-Dririn,Enano
-Thoradin,Enano
-Pip,Halfling
-Bilbo,Halfling
-Frodo,Halfling
-Daisy,Halfling
-Rosie,Halfling
-Pearl,Halfling
-Cottar,Halfling
-Drogo,Halfling
-Filibert,Halfling
-Tansy,Halfling
-Malachi,Tiefling
-Zerachiel,Tiefling
-Azazel,Tiefling
-Amaris,Tiefling
-Zephon,Tiefling
-Raziel,Tiefling
-Cassiel,Tiefling
-Lilith,Tiefling
-Dantalion,Tiefling
-Mephistopheles,Tiefling
-Glimwick,Gnomo
-Blinken,Gnomo
-Sprocket,Gnomo
-Nimble,Gnomo
-Larkspur,Gnomo
-Wizzlewick,Gnomo
-Fizzlecrank,Gnomo
-Dagnabbit,Gnomo
-Waldo,Gnomo
-Widget,Gnomo
-Drakaroth,Dragonborn
-Valyndra,Dragonborn
-Bahamut,Dragonborn
-Liros,Dragonborn
-Scorchio,Dragonborn
-Ryloth,Dragonborn
-Sykrex,Dragonborn
-Ithranos,Dragonborn
-Dragthor,Dragonborn
-Razorthorn,Dragonborn
-Gruk,Mediano
-Mogg,Mediano
-Snik,Mediano
-Wurzag,Mediano
-Skarz,Mediano
-Krabb,Mediano
-Gnarl,Mediano
-Mudwort,Mediano
-Grom,Mediano
-Frozz,Mediano
+name, race, alignment
+Aric Swiftblade, Human, Chaotic Good
+Elena Swiftstrider, Human, Lawful Neutral
+Liam Ironheart, Human, Neutral Good
+Nadia Fireforge, Human, Lawful Evil
+Eldarion Moonshadow, Human, Chaotic Neutral
+Aria Swiftbrook, Human, Neutral Evil
+Sylas Stormborn, Human, Chaotic Neutral
+Elara Moonshadow, Elf, Lawful Neutral
+Thalindra Starfall, Elf, Chaotic Good
+Eldrin Swiftleaf, Elf, Neutral Good
+Lirael Silverleaf, Elf, True Neutral
+Aelar Windrider, Elf, Lawful Evil
+Grom Stonefist, Dwarf, Lawful Good
+Thrain Ironbeard, Dwarf, Neutral Good
+Hilda Stoneforge, Dwarf, Lawful Neutral
+Borin Frostbeard, Dwarf, Chaotic Neutral
+Grundin Gemcutter, Dwarf, Neutral Evil
+Draven Ironheart, Gnome, True Neutral
+Fizzlebang Tinkertop, Gnome, Chaotic Good
+Bilba Copperclock, Gnome, Neutral Good
+Pip Whistlewick, Gnome, Chaotic Neutral
+Mimble Quickfoot, Gnome, Neutral Evil
+Sylgar Stoutfoot, Halfling, Lawful Good
+Tansy Greenhill, Halfling, Neutral Good
+Roscoe Hilltopple, Halfling, Chaotic Good
+Daisy Bramblefoot, Halfling, Chaotic Neutral
+Tobias Underhill, Halfling, True Neutral
+Zephyr Frostbloom, Dragonborn, Lawful Neutral
+Kharix Flameclaw, Dragonborn, Neutral Good
+Drakar Stormsoul, Dragonborn, Lawful Evil
+Vexia Darkscale, Dragonborn, Chaotic Neutral
+Kaela Sunwing, Dragonborn, Neutral Evil
+Thalia Emberforge, Tiefling, Chaotic Neutral
+Lucius Shadowflame, Tiefling, Lawful Evil
+Seraphina Hellfire, Tiefling, Chaotic Good
+Damien Bloodthorn, Tiefling, Neutral Good
+Morrigan Ashenclaw, Tiefling, Neutral Evil
+Lyria Starcaster, Aasimar, Lawful Good
+Eldric Dawnbringer, Aasimar, Lawful Good
+Serafina Radiance, Aasimar, Neutral Good
+Caelum Celestia, Aasimar, Neutral Good
+Aurius Lightbringer, Aasimar, Chaotic Good
+Soren Whitestar, Human, Neutral Good
+Evelyn Swiftblade, Human, Chaotic Good
+Thalia Ironheart, Human, Lawful Neutral
+Caden Stormborn, Human, Chaotic Neutral
+Elowen Moonshadow, Human, True Neutral
+Legolas Sunshard, Elf, Chaotic Good
+Nimue Starfall, Elf, Lawful Neutral
+Aldariel Swiftleaf, Elf, Neutral Good
+Faelan Frostbloom, Elf, Neutral Evil
+Sylindra Emberforge, Elf, Chaotic Neutral
+Thorin Ironbeard, Dwarf, Lawful Good
+Balin Stonefist, Dwarf, Neutral Good
+Gimli Copperbeard, Dwarf, Chaotic Neutral
+Dwalin Frostbeard, Dwarf, True Neutral
+Orcus Stonebreaker, Dwarf, Lawful Evil
+Rorik Ironfoot, Half-Orc, Chaotic Neutral
+Karnak Bloodaxe, Half-Orc, Neutral Evil
+Grunthok Skullcrusher, Half-Orc, Chaotic Evil
+Lokar Halfblood, Half-Orc, Lawful Neutral
+Yara Halfthorn, Half-Orc, Lawful Evil
+Aeliana Halfmoon, Half-Elf, Chaotic Good
+Eldorin Goldleaf, Half-Elf, Neutral Good
+Arania Silverbrook, Half-Elf, Chaotic Neutral
+Thalorin Moonwhisper, Half-Elf, True Neutral
+Lyndria Snowdancer, Half-Elf, Lawful Neutral
+Mephisto Nightshade, Tiefling, Chaotic Neutral
+Lilith Inferno, Tiefling, Lawful Evil
+Damian Shadowthorn, Tiefling, Neutral Good
+Vesper Bloodfire, Tiefling, Chaotic Good
+Malachi Hellscream, Tiefling, Neutral Evil
+Fizzwizzle Gearspark, Gnome, Chaotic Good
+Tink Tinkerbell, Gnome, Neutral Good
+Bixie Sparklebottom, Gnome, True Neutral
+Glimmertop Whizbang, Gnome, Chaotic Neutral
+Mimblewick Gearsprocket, Gnome, Neutral Evil
+Roscoe Underhill, Halfling, Lawful Good
+Tansy Bramblefoot, Halfling, Neutral Good
+Wren Willowbrook, Halfling, Chaotic Good
+Daisy Hilltopple, Halfling, Chaotic Neutral
+Thistle Bramblebush, Halfling, True Neutral
+Sargon Flameclaw, Dragonborn, Lawful Good
+Kaelis Stormsoul, Dragonborn, Neutral Good
+Azura Darkscale, Dragonborn, Lawful Evil
+Razorclaw Thunderstrike, Dragonborn, Chaotic Neutral
+Zephyr Windrider, Dragonborn, Neutral Evil
+Seraphiel Dawnbringer, Aasimar, Lawful Good
+Aurelia Lightspark, Aasimar, Neutral Good
+Lucan Celestia, Aasimar, Chaotic Good
+Israfiel Radiance, Aasimar, True Neutral
+Raelis Starshower, Aasimar, Chaotic Neutral
