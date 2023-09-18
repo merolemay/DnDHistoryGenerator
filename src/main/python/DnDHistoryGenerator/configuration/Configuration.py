@@ -1,6 +1,7 @@
 import pandas as pd
-from src.main.python.DnDHistoryGenerator.Characters.characters import Character
-class configuration:
+from characters.Characters import Character
+
+class Configuration:
     def __init__(self):
         pass
     
@@ -12,7 +13,8 @@ class configuration:
         print("3. Exit")
     
     def generate_default_configuration(self):
-        pass
+        generate_ramdon_party()
+
 
     def generate_ramdon_party(self):
         ListOfCharacters = []
@@ -21,3 +23,4 @@ class configuration:
             character.generate_character()
             ListOfCharacters.append(character)
         return ListOfCharacters
+ 

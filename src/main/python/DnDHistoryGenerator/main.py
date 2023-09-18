@@ -1,9 +1,19 @@
 def main():
-    from src.main.python.DnDHistoryGenerator.Configuration import configuration
-    from src.main.python.DnDHistoryGenerator.History import automatas,transductors,grammar
-    from src.main.python.DnDHistoryGenerator.Interaction import choices
-    from src.main.python.DnDHistoryGenerator.utils import validations
+    from characters.Characters import Character
+    from configuration.Configuration import Configuration
+    configuration = Configuration()
+    configuration.welcome()
+    option = input()   
+    print("Generating a new history with default configuration")
+    configuration.generate_default_configuration()
+    ListOfCharacters = configuration.generate_ramdon_party()
+    print("The party is composed by:")
+    for character in ListOfCharacters:
+        print(f'{character.name} the {character.race}')
     
+
+
+
 
 if __name__ == "__main__":
     main()
