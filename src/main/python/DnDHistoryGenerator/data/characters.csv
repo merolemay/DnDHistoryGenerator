@@ -1,93 +1,93 @@
-name, race, alignment
-Aric Swiftblade, Human, Chaotic Good
-Elena Swiftstrider, Human, Lawful Neutral
-Liam Ironheart, Human, Neutral Good
-Nadia Fireforge, Human, Lawful Evil
-Eldarion Moonshadow, Human, Chaotic Neutral
-Aria Swiftbrook, Human, Neutral Evil
-Sylas Stormborn, Human, Chaotic Neutral
-Elara Moonshadow, Elf, Lawful Neutral
-Thalindra Starfall, Elf, Chaotic Good
-Eldrin Swiftleaf, Elf, Neutral Good
-Lirael Silverleaf, Elf, True Neutral
-Aelar Windrider, Elf, Lawful Evil
-Grom Stonefist, Dwarf, Lawful Good
-Thrain Ironbeard, Dwarf, Neutral Good
-Hilda Stoneforge, Dwarf, Lawful Neutral
-Borin Frostbeard, Dwarf, Chaotic Neutral
-Grundin Gemcutter, Dwarf, Neutral Evil
-Draven Ironheart, Gnome, True Neutral
-Fizzlebang Tinkertop, Gnome, Chaotic Good
-Bilba Copperclock, Gnome, Neutral Good
-Pip Whistlewick, Gnome, Chaotic Neutral
-Mimble Quickfoot, Gnome, Neutral Evil
-Sylgar Stoutfoot, Halfling, Lawful Good
-Tansy Greenhill, Halfling, Neutral Good
-Roscoe Hilltopple, Halfling, Chaotic Good
-Daisy Bramblefoot, Halfling, Chaotic Neutral
-Tobias Underhill, Halfling, True Neutral
-Zephyr Frostbloom, Dragonborn, Lawful Neutral
-Kharix Flameclaw, Dragonborn, Neutral Good
-Drakar Stormsoul, Dragonborn, Lawful Evil
-Vexia Darkscale, Dragonborn, Chaotic Neutral
-Kaela Sunwing, Dragonborn, Neutral Evil
-Thalia Emberforge, Tiefling, Chaotic Neutral
-Lucius Shadowflame, Tiefling, Lawful Evil
-Seraphina Hellfire, Tiefling, Chaotic Good
-Damien Bloodthorn, Tiefling, Neutral Good
-Morrigan Ashenclaw, Tiefling, Neutral Evil
-Lyria Starcaster, Aasimar, Lawful Good
-Eldric Dawnbringer, Aasimar, Lawful Good
-Serafina Radiance, Aasimar, Neutral Good
-Caelum Celestia, Aasimar, Neutral Good
-Aurius Lightbringer, Aasimar, Chaotic Good
-Soren Whitestar, Human, Neutral Good
-Evelyn Swiftblade, Human, Chaotic Good
-Thalia Ironheart, Human, Lawful Neutral
-Caden Stormborn, Human, Chaotic Neutral
-Elowen Moonshadow, Human, True Neutral
-Legolas Sunshard, Elf, Chaotic Good
-Nimue Starfall, Elf, Lawful Neutral
-Aldariel Swiftleaf, Elf, Neutral Good
-Faelan Frostbloom, Elf, Neutral Evil
-Sylindra Emberforge, Elf, Chaotic Neutral
-Thorin Ironbeard, Dwarf, Lawful Good
-Balin Stonefist, Dwarf, Neutral Good
-Gimli Copperbeard, Dwarf, Chaotic Neutral
-Dwalin Frostbeard, Dwarf, True Neutral
-Orcus Stonebreaker, Dwarf, Lawful Evil
-Rorik Ironfoot, Half-Orc, Chaotic Neutral
-Karnak Bloodaxe, Half-Orc, Neutral Evil
-Grunthok Skullcrusher, Half-Orc, Chaotic Evil
-Lokar Halfblood, Half-Orc, Lawful Neutral
-Yara Halfthorn, Half-Orc, Lawful Evil
-Aeliana Halfmoon, Half-Elf, Chaotic Good
-Eldorin Goldleaf, Half-Elf, Neutral Good
-Arania Silverbrook, Half-Elf, Chaotic Neutral
-Thalorin Moonwhisper, Half-Elf, True Neutral
-Lyndria Snowdancer, Half-Elf, Lawful Neutral
-Mephisto Nightshade, Tiefling, Chaotic Neutral
-Lilith Inferno, Tiefling, Lawful Evil
-Damian Shadowthorn, Tiefling, Neutral Good
-Vesper Bloodfire, Tiefling, Chaotic Good
-Malachi Hellscream, Tiefling, Neutral Evil
-Fizzwizzle Gearspark, Gnome, Chaotic Good
-Tink Tinkerbell, Gnome, Neutral Good
-Bixie Sparklebottom, Gnome, True Neutral
-Glimmertop Whizbang, Gnome, Chaotic Neutral
-Mimblewick Gearsprocket, Gnome, Neutral Evil
-Roscoe Underhill, Halfling, Lawful Good
-Tansy Bramblefoot, Halfling, Neutral Good
-Wren Willowbrook, Halfling, Chaotic Good
-Daisy Hilltopple, Halfling, Chaotic Neutral
-Thistle Bramblebush, Halfling, True Neutral
-Sargon Flameclaw, Dragonborn, Lawful Good
-Kaelis Stormsoul, Dragonborn, Neutral Good
-Azura Darkscale, Dragonborn, Lawful Evil
-Razorclaw Thunderstrike, Dragonborn, Chaotic Neutral
-Zephyr Windrider, Dragonborn, Neutral Evil
-Seraphiel Dawnbringer, Aasimar, Lawful Good
-Aurelia Lightspark, Aasimar, Neutral Good
-Lucan Celestia, Aasimar, Chaotic Good
-Israfiel Radiance, Aasimar, True Neutral
-Raelis Starshower, Aasimar, Chaotic Neutral
+name,race,alignment
+AricSwiftblade,Human,Chaotic-Good
+ElenaSwiftstrider,Human,Lawful-Neutral
+LiamIronheart,Human,Neutral-Good
+NadiaFireforge,Human,Lawful-Evil
+EldarionMoonshadow,Human,Chaotic-Neutral
+AriaSwiftbrook,Human,Neutral-Evil
+SylasStormborn,Human,Chaotic-Neutral
+ElaraMoonshadow,Elf,Lawful-Neutral
+ThalindraStarfall,Elf,Chaotic-Good
+EldrinSwiftleaf,Elf,Neutral-Good
+LiraelSilverleaf,Elf,True-Neutral
+AelarWindrider,Elf,Lawful-Evil
+GromStonefist,Dwarf,Lawful-Good
+ThrainIronbeard,Dwarf,Neutral-Good
+HildaStoneforge,Dwarf,Lawful-Neutral
+BorinFrostbeard,Dwarf,Chaotic-Neutral
+GrundinGemcutter,Dwarf,Neutral-Evil
+DravenIronheart,Gnome,True-Neutral
+FizzlebangTinkertop,Gnome,Chaotic-Good
+BilbaCopperclock,Gnome,Neutral-Good
+PipWhistlewick,Gnome,Chaotic-Neutral
+MimbleQuickfoot,Gnome,Neutral-Evil
+SylgarStoutfoot,Halfling,Lawful-Good
+TansyGreenhill,Halfling,Neutral-Good
+RoscoeHilltopple,Halfling,Chaotic-Good
+DaisyBramblefoot,Halfling,Chaotic-Neutral
+TobiasUnderhill,Halfling,True-Neutral
+ZephyrFrostbloom,Dragonborn,Lawful-Neutral
+KharixFlameclaw,Dragonborn,Neutral-Good
+DrakarStormsoul,Dragonborn,Lawful-Evil
+VexiaDarkscale,Dragonborn,Chaotic-Neutral
+KaelaSunwing,Dragonborn,Neutral-Evil
+ThaliaEmberforge,Tiefling,Chaotic-Neutral
+LuciusShadowflame,Tiefling,Lawful-Evil
+SeraphinaHellfire,Tiefling,Chaotic-Good
+DamienBloodthorn,Tiefling,Neutral-Good
+MorriganAshenclaw,Tiefling,Neutral-Evil
+LyriaStarcaster,Aasimar,Lawful-Good
+EldricDawnbringer,Aasimar,Lawful-Good
+SerafinaRadiance,Aasimar,Neutral-Good
+CaelumCelestia,Aasimar,Neutral-Good
+AuriusLightbringer,Aasimar,Chaotic-Good
+SorenWhitestar,Human,Neutral-Good
+EvelynSwiftblade,Human,Chaotic-Good
+ThaliaIronheart,Human,Lawful-Neutral
+CadenStormborn,Human,Chaotic-Neutral
+ElowenMoonshadow,Human,True-Neutral
+LegolasSunshard,Elf,Chaotic-Good
+NimueStarfall,Elf,Lawful-Neutral
+AldarielSwiftleaf,Elf,Neutral-Good
+FaelanFrostbloom,Elf,Neutral-Evil
+SylindraEmberforge,Elf,Chaotic-Neutral
+ThorinIronbeard,Dwarf,Lawful-Good
+BalinStonefist,Dwarf,Neutral-Good
+GimliCopperbeard,Dwarf,Chaotic-Neutral
+DwalinFrostbeard,Dwarf,True-Neutral
+OrcusStonebreaker,Dwarf,Lawful-Evil
+RorikIronfoot,Half-Orc,Chaotic-Neutral
+KarnakBloodaxe,Half-Orc,Neutral-Evil
+GrunthokSkullcrusher,Half-Orc,ChaoticEvil
+LokarHalfblood,Half-Orc,Lawful-Neutral
+YaraHalfthorn,Half-Orc,Lawful-Evil
+AelianaHalfmoon,Half-Elf,Chaotic-Good
+EldorinGoldleaf,Half-Elf,Neutral-Good
+AraniaSilverbrook,Half-Elf,Chaotic-Neutral
+ThalorinMoonwhisper,Half-Elf,True-Neutral
+LyndriaSnowdancer,Half-Elf,Lawful-Neutral
+MephistoNightshade,Tiefling,Chaotic-Neutral
+LilithInferno,Tiefling,Lawful-Evil
+DamianShadowthorn,Tiefling,Neutral-Good
+VesperBloodfire,Tiefling,Chaotic-Good
+MalachiHellscream,Tiefling,Neutral-Evil
+FizzwizzleGearspark,Gnome,Chaotic-Good
+TinkTinkerbell,Gnome,Neutral-Good
+BixieSparklebottom,Gnome,True-Neutral
+GlimmertopWhizbang,Gnome,Chaotic-Neutral
+MimblewickGearsprocket,Gnome,Neutral-Evil
+RoscoeUnderhill,Halfling,Lawful-Good
+TansyBramblefoot,Halfling,Neutral-Good
+WrenWillowbrook,Halfling,Chaotic-Good
+DaisyHilltopple,Halfling,Chaotic-Neutral
+ThistleBramblebush,Halfling,True-Neutral
+SargonFlameclaw,Dragonborn,Lawful-Good
+KaelisStormsoul,Dragonborn,Neutral-Good
+AzuraDarkscale,Dragonborn,Lawful-Evil
+RazorclawThunderstrike,Dragonborn,Chaotic-Neutral
+ZephyrWindrider,Dragonborn,Neutral-Evil
+SeraphielDawnbringer,Aasimar,Lawful-Good
+AureliaLightspark,Aasimar,Neutral-Good
+LucanCelestia,Aasimar,Chaotic-Good
+IsrafielRadiance,Aasimar,True-Neutral
+RaelisStarshower,Aasimar,Chaotic-Neutral
