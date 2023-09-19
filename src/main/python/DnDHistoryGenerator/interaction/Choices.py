@@ -1,3 +1,4 @@
+from history.Automatas import AccionAutomata
 import random
 import os
 
@@ -13,17 +14,8 @@ class Choices:
     
     def present_choices(self):
         print("Please select an option:")
-        print("1. Continue")
-        print("2. Exit")
-        option = input()
-        if option == "1":
-            return
-        elif option == "2":
-            exit()
-        else:
-            print("Please select a valid option")
-            self.present_choices()
-
+        AccionAutomata().list_actions()
+        
         
         
         

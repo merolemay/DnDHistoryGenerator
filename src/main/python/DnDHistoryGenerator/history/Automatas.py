@@ -43,6 +43,25 @@ class AccionAutomata:
         else:
             return "q0"
         
+    def print_action(self,action):
+        if action == "Fight":
+            print("You decide to fight")
+        elif action == "Talk":
+            print("You decide to talk")
+        elif action == "Decieve":
+            print("You decide to decieve")
+        elif action == "Hide":
+            print("You decide to hide")
+        elif action == "Dodge":
+            print("You decide to dodge")
+        
+    def list_actions(self):
+        print("Please type an option:")
+        print("Fight")
+        print("Talk")
+        print("Decieve")
+        print("Hide")
+        print("Dodge")
 
 
    
