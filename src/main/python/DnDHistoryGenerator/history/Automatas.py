@@ -17,6 +17,8 @@ class RegrexAutomataName:
 
 
 class AccionAutomata:
+    automaton = DeterministicFiniteAutomaton
+
     def __init__(self):
         input_simbols={"Fight","Talk","Decieve","Hide","Dodge"}
 
@@ -27,6 +29,8 @@ class AccionAutomata:
         transitions = { 
         "q0": {"Fight": "q1", "Talk": "q2", "Decieve": "q3", "Hide": "q4", "Dodge": "q5"},
         }
+        
+        automaton = DeterministicFiniteAutomaton
 
     
     def take_action(self,action):

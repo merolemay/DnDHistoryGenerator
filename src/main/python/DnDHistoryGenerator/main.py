@@ -1,6 +1,7 @@
 from characters.Characters import Character
 from configuration.Configuration import Configuration
 from interaction.Choices import Choices
+from history.Automatas import AccionAutomata,RegrexAutomataName,DnDAutomata
 
 configuration = Configuration()
 choices = Choices()
@@ -10,6 +11,8 @@ def main():
     while(True):
         choices.present_introduction()
         choices.present_choices()
+        DnDAutomata.automaton.accepts(input())
+        False
         
 
 

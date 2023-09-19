@@ -8,7 +8,7 @@ class Choices:
     
 
     def load_ramdon_scenario(self):
-        with open(os.path.join(os.path.dirname(__file__),'..\\data\\Story_Scenario_Introuction.txt'), 'r') as f:
+        with open(os.path.join(os.path.dirname(__file__),'../data/Story_Scenario_Introuction.txt'), 'r') as f:
             textos = f.read().split(';')
             return random.choice(textos)
     
