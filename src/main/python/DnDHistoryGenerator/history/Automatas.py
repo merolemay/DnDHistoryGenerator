@@ -3,7 +3,6 @@ from pyformlang.regular_expression import Regex
 
 
 class RegrexAutomataName:
-
     def __init__(self):
         regrex = Regex("^[A-Za-z][A-Za-z0-9 ]*$")
         automaton = regrex.to_epsilon_nfa().to_deterministic().minimize()
@@ -29,12 +28,26 @@ class AccionAutomata:
         "q0": {"Fight": "q1", "Talk": "q2", "Decieve": "q3", "Hide": "q4", "Dodge": "q5"},
         }
 
-        self.automaton = DeterministicFiniteAutomaton(self.states, self.input_simbols, self.transitions, self.initial_state, self.final_states)
+    
+    def take_action(self,action):
+        if action == "Fight":
+            return "q1"
+        elif action == "Talk":
+            return "q2"
+        elif action == "Decieve":
+            return "q3"
+        elif action == "Hide":
+            return "q4"
+        elif action == "Dodge":
+            return "q5"
+        else:
+            return "q0"
+        
 
 
    
 
-    def set_final_states(self,final_state):
+    def set_final_step(self,final_state):
         self.automaton = DeterministicFiniteAutomaton(self.states, self.input_simbols, self.transitions, self.initial_state, final_state)
 
 
