@@ -6,7 +6,7 @@ class Configuration:
     ListofCharacters = []
 
     def __init__(self):
-        pass
+        self.welcome()
     
     def welcome(self):
         print("Welcome to the D&D History Generator")
@@ -17,7 +17,7 @@ class Configuration:
     
     def generate_default_configuration(self):
         self.generate_ramdon_party()
-        self.describe_party()
+
         
 
 
@@ -28,10 +28,6 @@ class Configuration:
             self.ListofCharacters.append(character)
         return self.ListofCharacters
     
-
-    def describe_party(self):
-        for character in self.ListofCharacters:
-            print(f'{character.name} the {character.race} which is {character.alignment}')
 
     def generate_custom_configuration(self):
         print("Please select the number of characters in the party:")

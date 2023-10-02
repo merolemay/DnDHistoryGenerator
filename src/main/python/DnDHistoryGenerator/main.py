@@ -1,7 +1,8 @@
 from characters.Characters import Character
 from configuration.Configuration import Configuration
 from interaction.Choices import Choices
-from history.Automatas import AccionAutomata,RegrexAutomataName,DnDAutomata
+from history.Automatas import MainHistoryAutomata
+from history.Grammar import Grammar
 
 configuration = Configuration()
 choices = Choices()
@@ -9,16 +10,16 @@ choices = Choices()
 def main():
     configurateSesion()
     while(True):
-        choices.present_introduction()
         choices.present_choices()
-        DnDAutomata.automaton.accepts(input())
+        Grammar().party_description(configuration.ListofCharacters)
+        eleccion = choices.validateInputRegrex(input())
+
         False
         
 
 
 
 def configurateSesion():
-    configuration.welcome()
     option = input()
     if option == "1":
         configuration.generate_default_configuration()
