@@ -1,24 +1,14 @@
 import pandas as pd
 from characters.Characters import Character
 
+
 class Configuration:
 
     ListofCharacters = []
 
-    def __init__(self):
-        self.welcome()
-    
-    def welcome(self):
-        print("Welcome to the D&D History Generator")
-        print("Please select an option:")
-        print("1. Generate a new history with default configuration")
-        print("2. Generate a new history with a custom configuration")
-        print("3. Exit")
-    
+
     def generate_default_configuration(self):
         self.generate_ramdon_party()
-
-        
 
 
     def generate_ramdon_party(self):

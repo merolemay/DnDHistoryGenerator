@@ -63,3 +63,5 @@ class MainHistoryAutomata:
             return True
         else:
             return False
+        
+    
