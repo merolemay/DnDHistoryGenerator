@@ -6,7 +6,7 @@ class MainHistoryAutomata:
     automaton = DeterministicFiniteAutomaton
 
     def __init__(self):
-        input_symbols = {"True", "False"}
+        input_symbols = {"1", "2"}
         q0 = State("q0")
         q1 = State("q1")
         q2 = State("q2")
@@ -25,43 +25,43 @@ class MainHistoryAutomata:
         initial_state = q0
         final_states = {q7,q8, q12, q13}
         transitions = [
-            (q0, "True", q1),
-            (q0, "False", q2),
+            (q0, "1", q1),
+            (q0, "2", q2),
 
-            (q1, "True", q3),
-            (q1, "False", q4),
+            (q1, "1", q3),
+            (q1, "2", q4),
 
-            (q2, "True", q9),
-            (q2, "False", q10),
+            (q2, "1", q9),
+            (q2, "2", q10),
 
-            (q3, "True", q5),
-            (q3, "False", q6),
+            (q3, "1", q5),
+            (q3, "2", q6),
 
-            (q4, "True", q5),
-            (q4, "False", q6),
+            (q4, "1", q5),
+            (q4, "2", q6),
 
-            (q5, "True", q7),
-            (q5, "False", q8),
+            (q5, "1", q7),
+            (q5, "2", q8),
 
-            (q6, "True", q7),
-            (q6, "False", q8),
+            (q6, "1", q7),
+            (q6, "2", q8),
 
-            (q9, "True", q3),
-            (q9, "False", q4),
+            (q9, "1", q3),
+            (q9, "2", q4),
 
-            (q10, "True", q7),
-            (q10, "False", q13),
+            (q10, "1", q7),
+            (q10, "2", q13),
 
-            (q11, "True", q12),
-            (q11, "False", q13)
+            (q11, "1", q12),
+            (q11, "2", q13)
         ]
         
         self.automaton = DeterministicFiniteAutomaton(states, input_symbols, transitions, initial_state, final_states)
 
     def check(self, eleccion):   
         if self.automaton.accepts(eleccion):
-            return True
+            return 1
         else:
-            return False
+            return 2
         
     
