@@ -4,8 +4,8 @@ class TransductorParty:
     fst = FST()
     
     def partyPostiveReaction(self):
-        input_simbols={"Fight","Talk","Deceive","Hide","Dodge"}
-        output_simbols={"Fight","Talk","Deceive","Hide","Dodge"}
+        input_symbols={"Fight","Talk","Deceive","Hide","Dodge"}
+        output_symbols={"Fight","Talk","Deceive","Hide","Dodge"}
         states = {"q0","q1","q2","q3","q4","q5"}
         initial_state = "q0"
         final_states = {"q1","q2","q3","q4","q5"}
@@ -16,12 +16,12 @@ class TransductorParty:
             ("q0","Hide","q4",["We shall hide!"]),
             ("q0","Dodge","q5",["We shall avoid this with you!"]),
         ]}
-        fst = FST(input_simbols, output_simbols, states, initial_state, final_states, transitions)
+        fst = FST(input_symbols, output_symbols, states, initial_state, final_states, transitions)
         return fst
 
     def partyNegativeReaction(self):
-        input_simbols={"Fight","Talk","Deceive","Hide","Dodge"}
-        output_simbols={"Fight","Talk","Deceive","Hide","Dodge"}
+        input_symbols={"Fight","Talk","Deceive","Hide","Dodge"}
+        output_symbols={"Fight","Talk","Deceive","Hide","Dodge"}
         states = {"q0","q1","q2","q3","q4","q5"}
         initial_state = "q0"
         final_states = {"q1","q2","q3","q4","q5"}
@@ -32,7 +32,7 @@ class TransductorParty:
             ("q0","Hide","q4",["We shall not hide!"]),
             ("q0","Dodge","q5",["We shall not avoid this with you!"]),
         ]}
-        fst = FST(input_simbols, output_simbols, states, initial_state, final_states, transitions)
+        fst = FST(input_symbols, output_symbols, states, initial_state, final_states, transitions)
         return fst
          
    
