@@ -1,6 +1,6 @@
-from history.Automatas import AccionAutomata
 import random
 import os
+import re
 
 class Choices:
     def present_introduction(self):
@@ -14,7 +14,39 @@ class Choices:
     
     def present_choices(self):
         print("Please select an option:")
-        AccionAutomata().list_actions()
+        self.list_actions()
+
+    def print_action(self,action):
+        if action == "Fight":
+            print("You decide to fight")
+        elif action == "Talk":
+            print("You decide to talk")
+        elif action == "Deceive":
+            print("You decide to deceive")
+        elif action == "Hide":
+            print("You decide to hide")
+        elif action == "Dodge":
+            print("You decide to dodge")
+        
+    def list_actions(self):
+        print("Fight")
+        print("Talk")
+        print("Deceive")
+        print("Hide")
+        print("Dodge")
+
+
+    #Validates that the input matches one of the list_actions() options
+    def validateInputRegrex(self,eleccion):
+        if re.match(r'fight|talk|deceive|hide|dodge|Fight|Talk|Deceive|Hide|Dodge|', eleccion):
+            self.print_action(eleccion)
+            return True
+        else:
+            print("Please select a valid option")
+            return False
+
+   
+
         
         
         

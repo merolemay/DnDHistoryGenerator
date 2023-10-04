@@ -10,10 +10,5 @@ class Character:
             self.name = charratersdf.sample().iloc[0]["name"]
             self.race = charratersdf.sample().iloc[0]["race"]
             self.alignment = charratersdf.sample().iloc[0]["alignment"]
-      
-  
 
-      
-      
-        
 
