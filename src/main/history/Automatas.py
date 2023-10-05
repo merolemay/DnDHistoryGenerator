@@ -58,10 +58,5 @@ class MainHistoryAutomata:
         
         self.automaton = DeterministicFiniteAutomaton(states, input_symbols, transitions, initial_state, final_states)
 
-    def check(self, eleccion):   
-        if self.automaton.accepts(eleccion):
-            return 1
-        else:
-            return 2
         
     
