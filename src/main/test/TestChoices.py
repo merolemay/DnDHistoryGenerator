@@ -1,6 +1,6 @@
 # test all the methods in class Choices from package interaction using unit test
 import unittest
-from DnDHistoryGenerator.interaction.Choices import Choices
+from interaction.Choices import Choices
 
 class TestChoices(unittest.TestCase):
 
