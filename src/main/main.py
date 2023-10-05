@@ -12,14 +12,47 @@ def main():
     askForUserName()
     welcome()
     configurateSesion()
-    while(True):
-        Grammar().party_description(configuration.ListofCharacters)
-        choices.present_choices()
-        while(True):
-            eleccion = input()
-            if choices.validateInputRegrex(eleccion):
-                choices.print_action(eleccion)
-                break
+    Grammar().party_description(configuration.ListofCharacters)
+    print("Your character, a Lawful Good adventurer, finds themselves at the edge of an enchanted forest. The forest is known to be a dangerous place, but there are rumors that a group of innocent villagers has been captured by malevolent creatures deep within")
+    print("Do you wish to enter the forest? (Y/N)")
+    eleccion = input()
+    while not choices.validateInputYesorNo(eleccion):
+        eleccion = input()
+    print("")
+    print("You enter the forest and find a fork in the road. One path leads to a cave, the other to a small hut. Which do you choose? (Cave/Hut)")
+    eleccion = input()
+    while not choices.validateInputRegrex(eleccion):
+        eleccion = input()
+    print("")
+    print("You enter the cave and find a group of goblins. They are holding the villagers captive. Do you wish to fight them? (Y/N)")
+    eleccion = input()
+    while not choices.validateInputYesorNo(eleccion):
+        eleccion = input()
+    print("")
+    print("You fight the goblins and free the villagers. Do you wish to escort them out of the forest? (Y/N)")
+    eleccion = input()
+    while not choices.validateInputYesorNo(eleccion):
+        eleccion = input()
+    print("")
+    print("You escort the villagers out of the forest and they thank you for your help. You have completed your quest.")
+    print("")
+    print("The End")
+    print("")
+    print("Would you like to play again? (Y/N)")
+    eleccion = input()
+    while not choices.validateInputYesorNo(eleccion):
+        eleccion = input()
+    print("")
+    if eleccion == "Y" or eleccion == "y":
+        main()
+    else:
+        print("Thank you for playing!")
+        exit()
+    
+   
+        
+    
+        
         
        
 

@@ -18,15 +18,15 @@ class Choices:
 
     def print_action(self,action):
         if action == "Fight":
-            print("You decide to fight")
+            print("You've decided to fight")
         elif action == "Talk":
-            print("You decide to talk")
+            print("You've decided to talk")
         elif action == "Deceive":
-            print("You decide to deceive")
+            print("You've decided to deceive")
         elif action == "Hide":
-            print("You decide to hide")
+            print("YYou've decided to hide")
         elif action == "Dodge":
-            print("You decide to dodge")
+            print("You've decided to dodge")
         
     def list_actions(self):
         print("Fight")
@@ -44,6 +44,14 @@ class Choices:
         else:
             print("Please select a valid option")
             return False
+        
+    def validateInputYesorNo(self,eleccion):
+        if re.match(r'Y|N|y|n', eleccion):
+            return True
+        else:
+            print("Please select a valid option")
+            return False
+
 
    
 
