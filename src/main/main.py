@@ -15,15 +15,13 @@ def main():
     while(True):
         Grammar().party_description(configuration.ListofCharacters)
         choices.present_choices()
-        eleccion = choices.validateInputRegrex(input())
-        if eleccion:
-            MainHistoryAutomata().run(configuration.ListofCharacters, eleccion)
-        else:
-            choices.present_choices()
-            Grammar().party_description(configuration.ListofCharacters)
-            eleccion = choices.validateInputRegrex(input())
-            MainHistoryAutomata().run(configuration.ListofCharacters, eleccion)
-
+        while(True):
+            eleccion = input()
+            if choices.validateInputRegrex(eleccion):
+                choices.print_action(eleccion)
+                break
+        
+       
 
     
 def welcome():
