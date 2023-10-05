@@ -13,3 +13,6 @@ class TestCharacters(unittest.TestCase):
             self.assertTrue(len(self.character.name) > 0)
             self.assertTrue(len(self.character.race) > 0)
             self.assertTrue(len(self.character.alignment) > 0)
+
+if __name__ == '__main__':
+    unittest.main()
