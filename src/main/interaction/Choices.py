@@ -3,6 +3,11 @@ import os
 import re
 
 class Choices:
+
+    #validates that the input matches 1 or 2
+    def validatedInputNumber(self,eleccion):
+        return re.match(r'1|2', eleccion)
+    
     def present_introduction(self):
         print(self.load_ramdon_scenario())
     
@@ -24,7 +29,7 @@ class Choices:
         elif action == "Deceive":
             print("You've decided to deceive")
         elif action == "Hide":
-            print("YYou've decided to hide")
+            print("You've decided to hide")
         elif action == "Dodge":
             print("You've decided to dodge")
         
@@ -38,7 +43,7 @@ class Choices:
 
     #Validates that the input matches one of the list_actions() options
     def validateInputRegrex(self,eleccion):
-        if re.match(r'fight|talk|deceive|hide|dodge|Fight|Talk|Deceive|Hide|Dodge|', eleccion):
+        if re.match(r'fight|Fight|Hide|hide', eleccion):
             self.print_action(eleccion)
             return True
         else:

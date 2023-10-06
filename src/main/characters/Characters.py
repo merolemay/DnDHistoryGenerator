@@ -6,7 +6,7 @@ class Character:
       alignment = ""
 
       def generate_character(self):
-            charratersdf = pd.read_csv("data/characters.csv")
+            charratersdf = pd.read_csv("src/main/data/characters.csv")
             self.name = charratersdf.sample().iloc[0]["name"]
             self.race = charratersdf.sample().iloc[0]["race"]
             self.alignment = charratersdf.sample().iloc[0]["alignment"]
