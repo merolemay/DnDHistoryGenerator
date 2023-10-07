@@ -9,6 +9,7 @@ from finals.Finals import Finals
 userName = ""
 configuration = Configuration()
 choices = Choices()
+transductorParty = TransductorParty()
 
 def main():
     askForUserName()
@@ -26,17 +27,18 @@ def startPlaying():
         eleccion = input()
         while not choices.validateInputRegrex(eleccion):
             eleccion = input()
+        print("")
         if eleccion == "hide" or eleccion == "Hide":
-            print(TransductorParty().partyNegativeReaction(eleccion))
+            print(transductorParty.partyNegativeReaction(eleccion))
             print("You hide the bandits defeat your party and take then to their camp. You follow them and see that they are part of a tribe. Do you wish to approach the tribe or not? (Approach/Not)")
-            print("1. Aprroach")
+            print("1. Approach")
             print("2. Not")
             eleccion = input()
             while not choices.validatedInputNumber(eleccion):
                 eleccion = input()
             print("")
         if eleccion == "fight" or eleccion == "Fight":
-            print(""+TransductorParty().partyPostiveReaction(eleccion))
+            print(""+transductorParty.partyPostiveReaction(eleccion))
             Finals().bad_ending()
             print("")
             print("Would you like to play again? (Y/N)")
