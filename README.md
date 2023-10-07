@@ -21,9 +21,7 @@ The Interactive Dungeons & Dragons Story Generator project focuses on providing 
 ## Features
 
 - **Player Interaction:** Players can actively participate in crafting the D&D adventure by making decisions and choices at critical points.
-- **Evolving Quest:** The generated stories will adapt and evolve based on player decisions, leading to a diverse range of quest outcomes.
 - **Utilization of Narrative Elements:** The project employs narrative techniques inspired by D&D lore, incorporating elements such as character interactions, quests, and encounters.
-- **Exploration:** Players can explore different paths within the adventure and experience the consequences of their choices.
 
 ## Installation
 
