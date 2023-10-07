@@ -50,4 +50,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Authors
 [Duvan Ricardo Cuero Colorado](https://github.com/merolemay)
+
 [Alejandra Diaz Parra](https://github.com/trp216)
