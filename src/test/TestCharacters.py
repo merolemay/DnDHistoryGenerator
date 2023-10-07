@@ -1,6 +1,6 @@
 # # test all the methods in class characters from package interaction using unit test
 import unittest
-from characters.Characters import Character
+from main.characters.Characters import Character
 
 class TestCharacters(unittest.TestCase):
     

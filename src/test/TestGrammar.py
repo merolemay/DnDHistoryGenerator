@@ -1,6 +1,6 @@
 import unittest
-from history.Grammar import Grammar
-from characters.Characters import Character
+from main.history.Grammar import Grammar
+from main.characters.Characters import Character
 
 class TestGrammar(unittest.TestCase):
     def setUp(self):
