@@ -29,13 +29,14 @@ To set up the Interactive Dungeons & Dragons Story Generator on your local machi
 
 1. Clone the repository: `git clone https://github.com/merolemay/dnd-story-generator.git`
 2. Navigate to the project directory: `cd dnd-story-generator`
-3. Install the required dependencies: `pip install pyformlang`
+3. Install the required dependencies: `pip install pyformlang,ntlk`
 
 ## Usage
 
-1. Run the main script: `python main.py`
-2. Immerse yourself in the interactive D&D adventure by making choices that shape the journey of your characters.
-3. Enjoy the unfolding narrative that responds to your decisions.
+1. Navigate to src/main 
+2. run the main script: `python main.py`
+3. Immerse yourself in the interactive D&D adventure by making choices that shape the journey of your characters.
+4. Enjoy the unfolding narrative that responds to your decisions.
 
 ## Contributions
 
@@ -46,3 +47,7 @@ Prior to making substantial changes, please discuss them with the maintainers th
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Authors
+[Duvan Ricardo Cuero Colorado](https://github.com/merolemay)
+[Alejandra Diaz Parra](https://github.com/trp216)
